@@ -1,4 +1,4 @@
-
+import Users from './components/Users'
 import './App.css'
 
 function App() {
@@ -8,6 +8,7 @@ function App() {
     <>
       
       <h1>Hello world</h1>
+      <Users></Users>
       
     </>
   )

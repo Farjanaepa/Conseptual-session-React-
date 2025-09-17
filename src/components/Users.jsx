@@ -1,10 +1,11 @@
-import React from 'react';
+
 
 const Users = () => {
     return (
-        <div>
-            
-        </div>
+       <>
+        <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis ipsa, recusandae qui quae soluta nesciunt nostrum officiis autem voluptates aperiam eaque ex ratione ipsum similique dolor cum! Magni, maiores corrupti?</h2>
+
+       </>
     );
 };
 
