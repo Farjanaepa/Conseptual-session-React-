@@ -1,5 +1,6 @@
 import Users from './components/Users'
 import './App.css'
+import { Suspense } from 'react';
 // import { useState } from 'react';
 
 
@@ -35,9 +36,11 @@ console.log(userPromise);
 
   return (
     <>
+<Suspense fallback={'loading....'}>
+ <Users userPromise={userPromise}></Users>
+</Suspense>
 
-
-    <Users></Users>
+   
 
 {/* set count */}
 {/* 
